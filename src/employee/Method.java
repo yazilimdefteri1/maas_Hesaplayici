@@ -27,7 +27,7 @@ public class Method {
     //  workHours ( Calisma Satine( a Gore Bonusu Hesaplayan Mwethod
     public static int bonus(int workHours) {
         if (workHours > 40) {
-            workHoursBonus = (workHours - 40) * 30;
+            workHoursBonus = ((workHours - 40) * 30)*4; // aylık olarak hesaplanmaktadır
         } else {
             workHoursBonus = 0;
         }
